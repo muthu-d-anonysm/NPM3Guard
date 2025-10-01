@@ -47,13 +47,13 @@ cd npm3guard
 pip install -r requirements.txt
 
 # Run the scanner
-python npm3guard_v2.2_complete.py
+python npm3guard.py
 ```
 
 ### Basic Usage
 
 ```bash
-python npm3guard_v2.2_complete.py
+python npm3guard.py
 ```
 
 Follow the interactive prompts to configure and run your scan.
@@ -85,7 +85,7 @@ brew install python3 git
 
 ```bash
 # Method 1: Direct download
-wget https://raw.githubusercontent.com/your-org/npm3guard/main/npm3guard_v2.2_complete.py
+wget https://raw.githubusercontent.com/your-org/npm3guard/main/npm3guard.py
 pip install -r requirements.txt
 
 # Method 2: Git clone
@@ -207,7 +207,7 @@ config = ScanConfig(
 ### 1. Client Repository Assessment
 ```bash
 # Scan entire client organization
-python npm3guard_v2.2_complete.py
+python npm3guard.py
 # Input: client-org-name
 # Token: Your GitHub PAT with org access
 ```
@@ -318,8 +318,8 @@ pytest tests/
 
 ### Code Style
 ```bash
-black npm3guard_v2.2_complete.py
-flake8 npm3guard_v2.2_complete.py
+black npm3guard.py
+flake8 npm3guard.py
 ```
 
 ## 📄 License
