@@ -43,7 +43,7 @@ TOOL_NAME = r"""
 ██   ████ ██      ██      ██ ██████   ██████   ██████  ██   ██ ██   ██ ██████  
 
                 ▂▃▅▇█▓▒░ Enterprise VAPT Edition v2.3 - Enhanced Slack Alerts ░▒▓█▇▅▃▂
-                                    Enhanced for ApniSec Teams
+                                   
 """
 
 # ------------------ Enhanced Configuration ------------------
@@ -987,7 +987,7 @@ def main():
     print("✅ Sends detailed vulnerability reports to Slack with breakdown")
     print("="*75)
     
-    username = input("GitHub username/organization (e.g., 'apnisec'): ").strip()
+    username = input("GitHub username/organization (e.g., 'hackerone'): ").strip()
     token = getpass.getpass("GitHub Personal Access Token (ghp_...): ").strip()
     
     if not username:
