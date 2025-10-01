@@ -12,8 +12,6 @@
 
 **Enterprise VAPT Edition v2.2 - Organization Support + Recursive Scanning**
 
-*Enhanced for ApniSec Teams*
-
 [![Python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://python.org)
 [![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 [![Security](https://img.shields.io/badge/security-VAPT-red.svg)](#)
@@ -330,7 +328,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🙏 Acknowledgments
 
-- **ApniSec Team** - For enterprise VAPT requirements and testing
 - **GitHub Advisory Database** - For vulnerability data
 - **OWASP** - For security best practices
 - **CVE Program** - For vulnerability identification standards
@@ -341,14 +338,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **GitHub Issues** - [Report bugs and request features](https://github.com/your-org/npm3guard/issues)
 - **Discussions** - [Community discussions and Q&A](https://github.com/your-org/npm3guard/discussions)
 
-### Enterprise Support
-For enterprise support and custom integrations, contact the ApniSec team.
-
 ---
 
 <div align="center">
-
-**Built with ❤️ for the cybersecurity community by ApniSec**
 
 [Website](https://apnisec.com) • [GitHub](https://github.com/your-org) • [LinkedIn](https://linkedin.com/company/apnisec)
 
